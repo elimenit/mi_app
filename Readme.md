@@ -25,9 +25,11 @@ Todos los endpoints devolveran la entidad que esta manejando
 ## GET /api/users/1
 [
     {
+        "user_id": 1
         "name": "Jhon",
         "lastname": "Doe",
-        "age":21
+        "age":21, 
+        "email": "correo"
     },
     ...
 ]
@@ -36,6 +38,7 @@ Todos los endpoints devolveran la entidad que esta manejando
 {
     "name": "nombre",
     "lastname": "apellido",
+    "age": 21,
     "email": "correo",
     "password": "contrasena",
     "cv": "nombre_cv.pdf"
@@ -46,6 +49,7 @@ Todos los endpoints devolveran la entidad que esta manejando
     "user_id": 1
     "name": "nombre",
     "lastname": "apellido",
+    "age": 22,
     "password": "contrasena",
     "cv": "nuevo.pdf"
 }
@@ -64,6 +68,7 @@ administra los usuarios
         "user_id": 1
         "name": "Jhon",
         "lastname": "Doe",
+        "age": 22,
         "email": "correo",
         "password":"contrasena",
         "cv": "example.pdf"
