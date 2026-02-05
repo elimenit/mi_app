@@ -37,7 +37,8 @@ Todos los endpoints devolveran la entidad que esta manejando
     "name": "nombre",
     "lastname": "apellido",
     "email": "correo",
-    "password": "contrasena"
+    "password": "contrasena",
+    "cv": "nombre_cv.pdf"
 }
 
 ## PUT /api/users/
@@ -45,7 +46,8 @@ Todos los endpoints devolveran la entidad que esta manejando
     "user_id": 1
     "name": "nombre",
     "lastname": "apellido",
-    "password": "contrasena"
+    "password": "contrasena",
+    "cv": "nuevo.pdf"
 }
 
 ## DELETE /api/users/{id}
@@ -63,7 +65,8 @@ administra los usuarios
         "name": "Jhon",
         "lastname": "Doe",
         "email": "correo",
-        "password":"contrasena"
+        "password":"contrasena",
+        "cv": "example.pdf"
     },
     ...
 ]

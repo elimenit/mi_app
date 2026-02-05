@@ -7,3 +7,5 @@
 **/*.pyc
 # configuraciones privadas
 .env
+# temporalmente
+back/**/*

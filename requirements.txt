@@ -9,3 +9,6 @@ requests
 
 # para manejar las variables de entorno 
 python-dotenv 
+
+# Para las pruebas unitarias
+pytest
