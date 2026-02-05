@@ -1,4 +1,9 @@
+# carpeta del entorno virtual
 .venv/**/*
+# configuraciones de vscode
 .vscode/**/*
+# precompilado de python 
 **/**/*.pyc
 **/*.pyc
+# configuraciones privadas
+.env

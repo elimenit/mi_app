@@ -1,3 +1,11 @@
-"fastapi[standard]"
+# framework de desarrollo web
+fastapi[standard]
+
+# orm de la base de datos
 sqlmodel
+
+#peticiones http
 requests
+
+# para manejar las variables de entorno 
+python-dotenv 
